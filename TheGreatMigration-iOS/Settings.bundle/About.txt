@@ -1,0 +1,11 @@
+The Great Migration is a poem about leaving, about the excitement of heading out into a great unknown. It's also a poem about expulsion, about diaspora, about being forced from home, in some sense about my emigration to Canada. Or it’s about the migration of sperm up the fallopian tubes, ever hopeful of successful fertilization. To be truthful, this is a work that remains somewhat mysterious to me. 
+
+The viewer reads the poem by touching one of the beasties. Each of them is built from a different line of the text. When a beastie is captured, it begins spawning the words from that line, one by one. 
+
+Migration for the iPad/iPhone/iPod Touch is the third in a series of P.o.E.M.M.s (Poem for Excitable [Mobile] Media) created specifically for reading via touch interaction. Speak and Know were the first two. Like the previous two, we will soon be releasing a second version, in which we’ll feature five texts written by guest poets.
+
+We plan on creating a series of ten P.o.E.M.M. apps, each exploring different interaction methods, collaboration strategies, and publication parameters. The apps are also part of a series of exhibition-scale touchworks integrated with large-scale text-prints. 
+
+Programming by Serge Maheu, Charles-Antoine Dupont & Bruno Nadeau, from original code by Nadeau. Based on the NextText architecture.
+
+2007 - 2013 ©  Jason Edward Lewis

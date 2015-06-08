@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<glyph>
+  <polygon shapes="2" vertices="10">
+    <shapes>
+      <shape type="f"/>
+      <shape type="f"/>
+    </shapes>
+    <ends>
+      <end index="6"/>
+      <end index="10"/>
+    </ends>
+    <vertices>
+      <vertex x="5.109375" z="0.0" y="-4.578125"/>
+      <vertex x="5.109375" z="0.0" y="-22.34375"/>
+      <vertex x="11.28125" z="0.0" y="-26.96875"/>
+      <vertex x="11.28125" z="0.0" y="0.046875"/>
+      <vertex x="1.65625" z="0.0" y="0.046875"/>
+      <vertex x="1.65625" z="0.0" y="-4.578125"/>
+      <vertex x="1.65625" z="0.0" y="-22.34375"/>
+      <vertex x="1.65625" z="0.0" y="-26.96875"/>
+      <vertex x="11.28125" z="0.0" y="-26.96875"/>
+      <vertex x="5.109375" z="0.0" y="-22.34375"/>
+    </vertices>
+  </polygon>
+</glyph>

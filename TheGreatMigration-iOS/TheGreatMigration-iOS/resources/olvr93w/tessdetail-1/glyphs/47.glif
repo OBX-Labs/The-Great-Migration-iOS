@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<glyph>
+  <polygon shapes="1" vertices="4">
+    <shapes>
+      <shape type="f"/>
+    </shapes>
+    <ends>
+      <end index="4"/>
+    </ends>
+    <vertices>
+      <vertex x="5.328125" z="0.0" y="-0.265625"/>
+      <vertex x="0.6875" z="0.0" y="-0.265625"/>
+      <vertex x="10.0625" z="0.0" y="-28.3125"/>
+      <vertex x="14.703125" z="0.0" y="-28.3125"/>
+    </vertices>
+  </polygon>
+</glyph>

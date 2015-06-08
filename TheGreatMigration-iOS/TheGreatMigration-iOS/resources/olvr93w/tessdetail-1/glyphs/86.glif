@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<glyph>
+  <polygon shapes="2" vertices="12">
+    <shapes>
+      <shape type="f"/>
+      <shape type="s"/>
+    </shapes>
+    <ends>
+      <end index="6"/>
+      <end index="12"/>
+    </ends>
+    <vertices>
+      <vertex x="21.828125" z="0.0" y="0.0"/>
+      <vertex x="15.015625" z="0.0" y="0.0"/>
+      <vertex x="15.046875" z="0.0" y="-9.546875"/>
+      <vertex x="18.84375" z="0.0" y="-26.96875"/>
+      <vertex x="24.015625" z="0.0" y="-26.96875"/>
+      <vertex x="29.1875" z="0.0" y="-26.96875"/>
+      <vertex x="0.828125" z="0.0" y="-26.96875"/>
+      <vertex x="6.0625" z="0.0" y="-26.96875"/>
+      <vertex x="8.171875" z="0.0" y="0.0"/>
+      <vertex x="11.328125" z="0.0" y="-26.96875"/>
+      <vertex x="15.015625" z="0.0" y="0.0"/>
+      <vertex x="15.046875" z="0.0" y="-9.546875"/>
+    </vertices>
+  </polygon>
+</glyph>

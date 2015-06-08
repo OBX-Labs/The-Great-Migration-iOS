@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<glyph>
+  <polygon shapes="4" vertices="22">
+    <shapes>
+      <shape type="s"/>
+      <shape type="f"/>
+      <shape type="f"/>
+      <shape type="t"/>
+    </shapes>
+    <ends>
+      <end index="9"/>
+      <end index="15"/>
+      <end index="19"/>
+      <end index="22"/>
+    </ends>
+    <vertices>
+      <vertex x="6.5" z="0.0" y="0.0"/>
+      <vertex x="8.421875" z="0.0" y="-12.96875"/>
+      <vertex x="12.171875" z="0.0" y="0.0"/>
+      <vertex x="12.390625" z="0.0" y="-26.96875"/>
+      <vertex x="14.78125" z="0.0" y="-6.265625"/>
+      <vertex x="14.890625" z="0.0" y="-19.828125"/>
+      <vertex x="17.953125" z="0.0" y="0.0"/>
+      <vertex x="17.890625" z="0.0" y="-26.96875"/>
+      <vertex x="23.53125" z="0.0" y="-26.96875"/>
+      <vertex x="20.96875" z="0.0" y="-12.921875"/>
+      <vertex x="29.203125" z="0.0" y="0.0"/>
+      <vertex x="23.578125" z="0.0" y="0.0"/>
+      <vertex x="17.953125" z="0.0" y="0.0"/>
+      <vertex x="23.53125" z="0.0" y="-26.96875"/>
+      <vertex x="29.203125" z="0.0" y="-26.96875"/>
+      <vertex x="8.421875" z="0.0" y="-12.96875"/>
+      <vertex x="1.140625" z="0.0" y="-26.96875"/>
+      <vertex x="6.765625" z="0.0" y="-26.96875"/>
+      <vertex x="12.390625" z="0.0" y="-26.96875"/>
+      <vertex x="8.421875" z="0.0" y="-12.96875"/>
+      <vertex x="6.5" z="0.0" y="0.0"/>
+      <vertex x="0.84375" z="0.0" y="0.0"/>
+    </vertices>
+  </polygon>
+</glyph>
