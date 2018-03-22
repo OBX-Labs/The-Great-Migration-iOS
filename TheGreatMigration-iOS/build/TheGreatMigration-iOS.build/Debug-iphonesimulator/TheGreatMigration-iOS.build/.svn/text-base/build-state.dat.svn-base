@@ -1,0 +1,621 @@
+TTheGreatMigration-iOS
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Info.plist TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist
+cProcessPCH /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch.gch TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-gvvplhpcdpyrnjaywdbvycquifsf/TheGreatMigration-iOS-Prefix.pch.gch TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/main.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSViewController.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSAppDelegate.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D93ED360000000000000110
+t1301540150
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004D93E081000000000000094F
+t1301536897
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004D93E0810000000000009369
+t1301536897
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004D93E0810000000000003C4A
+t1301536897
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004D93E08100000000000092AA
+t1301536897
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004D93E08100000000000026AA
+t1301536897
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004D93E08B00000000000191D0
+t1301536907
+s102864
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D93E12E00000000000000C4
+t1301537070
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D93E1B20000000000162C50
+t1301537202
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/assert.h
+c000000004D4F6E990000000000000F6E
+t1297051289
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/string.h
+c000000004D4F6E9A0000000000001A3A
+t1297051290
+s6714
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Beast.cpp
+c000000004DB8930E00000000000000E5
+t1303941902
+s229
+i"Beast.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Beast.h
+c000000004DB88B9000000000000000DA
+t1303939984
+s218
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.h
+c000000004DBB0C7000000000000003D7
+t1304104048
+s983
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m
+c000000004DBB0C700000000000000E92
+t1304104048
+s3730
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Shaders/Shader.fsh
+c000000004DBB0C6F00000000000000F3
+t1304104047
+s243
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Shaders/Shader.vsh
+c000000004DBB0C700000000000000179
+t1304104048
+s377
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch
+c000000004DBB0C6F000000000000015C
+t1304104047
+s348
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.h
+c000000004DBB0C6F00000000000001F0
+t1304104047
+s496
+i<UIKit/UIKit.h>
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m
+c000000004DBB0C6F0000000000000A1A
+t1304104047
+s2586
+i"TheGreatMigration_iOSAppDelegate.h"
+i"EAGLView.h"
+i"TheGreatMigration_iOSViewController.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h
+c000000004DBB0E0B0000000000000347
+t1304104459
+s839
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"ft2build.h"
+i"glu.h"
+i"gluos.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m
+c000000004DBB0C70000000000000273E
+t1304104048
+s10046
+i<QuartzCore/QuartzCore.h>
+i"TheGreatMigration_iOSViewController.h"
+i"EAGLView.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/InfoPlist.strings
+c000000004DBB0C6F000000000000002D
+t1304104047
+s45
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/MainWindow.xib
+c000000004DBB0C6F00000000000027F6
+t1304104047
+s10230
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib
+c000000004DBB0C7000000000000019B2
+t1304104048
+s6578
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/include/Freetype
+c000000004DA144D400000000000005FA
+t1302414548
+s1530
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/include/freetype/config/ftheader.h
+c000000004DA144D400000000000060B9
+t1302414548
+s24761
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/include/ft2build.h
+c000000004DB889C20000000000000889
+t1303939522
+s2185
+i"freetype/config/ftheader.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/include/glu.h
+c0000000048DFF0B70000000000001F99
+t1222635703
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/include/gluos.h
+c0000000048DFF0B7000000000000052E
+t1222635703
+s1326
+i<stdlib.h>
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<stdio.h>
+i<malloc.h>
+i<windows.h>
+i<stdlib.h>
+i<stdio.h>
+i<malloc.h>
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/libFreetype2.a
+c000000004DBAF552000000000016C878
+t1304098130
+s1493112
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/libGLU.a
+c000000004DB59C740000000000025308
+t1303747700
+s152328
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m
+c000000004DBB0C6F000000000000017C
+t1304104047
+s380
+i<UIKit/UIKit.h>
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/triangulate.cpp
+c000000004DB5891D0000000000001FF7
+t1303742749
+s8183
+i<vector>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i"triangulate.h"
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i"triangulate.h"
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app
+t1304104325
+s272
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM
+t1304104320
+s102
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Freetype
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Info.plist
+t1304104316
+s913
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/PkgInfo
+t1304104316
+s8
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.fsh
+t1304104321
+s243
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.vsh
+t1304104321
+s377
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS
+t1304104320
+s40544
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/InfoPlist.strings
+t1304104321
+s42
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/MainWindow.nib
+t1304104325
+s1944
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/TheGreatMigration_iOSViewController.nib
+t1304104325
+s1305
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/Beast.o
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/EAGLView.o
+t1304104319
+s43852
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration-iOS.LinkFileList
+c000000004DBB10060000000000000521
+t1304104966
+s1313
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSAppDelegate.o
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSViewController.o
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/main.o
+t1304104319
+s3232
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/triangulate.o
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/EAGLView.plist
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/TheGreatMigration_iOSAppDelegate.plist
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/TheGreatMigration_iOSViewController.plist
+t2
+s0
+
+N/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/main.plist
+t2
+s0
+
+N/var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch.gch
+t1304104319
+s12283312
+
+N/var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-gvvplhpcdpyrnjaywdbvycquifsf/TheGreatMigration-iOS-Prefix.pch.gch
+t1304104966
+s1704368
+
+NTheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist
+c000000004DBB0C6F0000000000000507
+t1304104047
+s1287
+
+CAnalyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m
+s325797118.916971
+e325797119.244407
+r1
+xAnalyze
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.mf3e8eafe446bb341^81923eff446bb341^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m0000000000000000^3153"Analyze TheGreatMigration-iOS/EAGLView.m    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch --analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/EAGLView.plist
+
+CAnalyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m
+s325797119.309613
+e325797119.383115
+r1
+xAnalyze
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m726a4fff446bb341^e01462ff446bb341^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m0000000000000000^3225"Analyze TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch --analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/TheGreatMigration_iOSAppDelegate.plist
+
+CAnalyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m
+s325797119.383326
+e325797119.481983
+r1
+xAnalyze
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.mf94862ff446bb341^a2637bff446bb341^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m0000000000000000^3234"Analyze TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch --analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/TheGreatMigration_iOSViewController.plist
+
+CAnalyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m
+s325797119.244618
+e325797119.309424
+r1
+xAnalyze
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.me7c43eff446bb341^ca374fff446bb341^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m0000000000000000^3141"Analyze TheGreatMigration-iOS/main.m    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch --analyze /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/StaticAnalyzer/normal/i386/main.plist
+
+CBuild AST from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Beast.cpp
+r0
+
+CBuild AST from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m
+r0
+
+CBuild AST from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m
+r0
+
+CBuild AST from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m
+r0
+
+CBuild AST from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m
+r0
+
+CBuild AST from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/triangulate.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies537adea8476bb341^7ba3fea8476bb341^---0#1#0#--18"Check dependencies
+
+CCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/Beast.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Beast.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/EAGLView.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325797119.677132
+e325797119.835450
+r1
+xCompileC
+xbuild/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/EAGLView.o
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.mb280adff446bb341^87dfd5ff446bb341^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m0000000000000000^3057"CompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/EAGLView.o TheGreatMigration-iOS/EAGLView.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/EAGLView.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/EAGLView.o
+
+CCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSAppDelegate.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325797801.010325
+e325797801.240782
+r0
+xCompileC
+xbuild/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSAppDelegate.o
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m:13:
+o/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h:19:23: error: freetype/freetype.h: No such file or directory
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.mc5c802a9476bb341^32204ba9476bb341^-396"In file included from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m:13:/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h:19:23: error: freetype/freetype.h: No such file or directory1(21%IDEActivityLogMessage2@46"Freetype/freetype.h: No such file or directory-325797801#179#217#2(36%IDEActivityLogHeaderInclusionMessage3@174"In file included from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m-325797801#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@168"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m0000000000000000^12#18446744073709551615#12#18446744073709551615#18446744073709551615#0#---2@205"Freetype/freetype.h: No such file or directory in /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h-325797801#18446744073709551615#0#-0#-4@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#---2#-4@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--0#0#0#-19%DVTDocumentLocation5@168"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m0000000000000000^3153"CompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSAppDelegate.o TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSAppDelegate.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSAppDelegate.o
+
+CCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSViewController.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325797801.008286
+e325797801.341071
+r0
+xCompileC
+xbuild/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSViewController.o
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m:11:
+o/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h:19:23: error: freetype/freetype.h: No such file or directory
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Compile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.mc18f02a9476bb341^437064a9476bb341^-399"In file included from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m:11:/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h:19:23: error: freetype/freetype.h: No such file or directory1(21%IDEActivityLogMessage2@46"Freetype/freetype.h: No such file or directory-325797801#182#217#2(36%IDEActivityLogHeaderInclusionMessage3@177"In file included from /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m-325797801#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m0000000000000000^10#18446744073709551615#10#18446744073709551615#18446744073709551615#0#---2@205"Freetype/freetype.h: No such file or directory in /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h-325797801#18446744073709551615#0#-0#-4@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#---2#-4@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.h0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--0#0#0#-19%DVTDocumentLocation5@171"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m0000000000000000^3165"CompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSViewController.o TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration_iOSViewController.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration_iOSViewController.o
+
+CCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/main.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325797119.587053
+e325797119.676605
+r1
+xCompileC
+xbuild/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/main.o
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.me57b96ff446bb341^ee40adff446bb341^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m0000000000000000^3041"CompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/main.o TheGreatMigration-iOS/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -include /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/main.m -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/main.o
+
+CCompileC build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/triangulate.o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/triangulate.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileXIB /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/MainWindow.xib
+s325797121.103528
+e325797125.729538
+r1
+xCompileXIB
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compiling /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/MainWindow.xibe19b1a01456bb341^44c3ba05456bb341^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/MainWindow.xib0000000000000000^861"CompileXIB TheGreatMigration-iOS/en.lproj/MainWindow.xib    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/MainWindow.nib /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib
+s325797121.184382
+e325797125.728358
+r1
+xCompileXIB
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection176"Compiling /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib304b2f01456bb341^3980ba05456bb341^---0#0#0#-19%DVTDocumentLocation2@182"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib0000000000000000^936"CompileXIB TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/TheGreatMigration_iOSViewController.nib /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/TheGreatMigration_iOSViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyStringsFile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/InfoPlist.strings TheGreatMigration-iOS/en.lproj/InfoPlist.strings
+s325797121.103333
+e325797121.174574
+r1
+xCopyStringsFile
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/InfoPlist.strings
+xTheGreatMigration-iOS/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy TheGreatMigration-iOS/en.lproj/InfoPlist.strings4f961a01456bb341^9ab12c01456bb341^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/en.lproj/InfoPlist.strings0000000000000000^681"CopyStringsFile build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj/InfoPlist.strings TheGreatMigration-iOS/en.lproj/InfoPlist.strings    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/en.lproj -- TheGreatMigration-iOS/en.lproj/InfoPlist.strings
+
+CCpResource TheGreatMigration-iOS/Shaders/Shader.fsh build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.fsh
+s325797121.174735
+e325797121.178862
+r1
+xCpResource
+xTheGreatMigration-iOS/Shaders/Shader.fsh
+xbuild/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.fsh
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.fsh89d42c01456bb341^e2ca2d01456bb341^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.fsh0000204d2205f041^737"CpResource TheGreatMigration-iOS/Shaders/Shader.fsh build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.fsh    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Shaders/Shader.fsh /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app
+
+CCpResource TheGreatMigration-iOS/Shaders/Shader.vsh build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.vsh
+s325797121.178983
+e325797121.184262
+r1
+xCpResource
+xTheGreatMigration-iOS/Shaders/Shader.vsh
+xbuild/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.vsh
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.vsh50e42d01456bb341^b62c2f01456bb341^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.vsh0000204d2205f041^737"CpResource TheGreatMigration-iOS/Shaders/Shader.vsh build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Shader.vsh    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/Shaders/Shader.vsh /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app
+
+CCpResource TheGreatMigration-iOS/include/Freetype build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Freetype
+r0
+
+CGenerateDSYMFile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS
+s325797120.859386
+e325797121.100791
+r1
+xGenerateDSYMFile
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Generating /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM0f27dc00456bb341^b8cc1901456bb341^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM0000204d2205f041^748"GenerateDSYMFile build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app.dSYM
+
+CLd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS normal i386
+s325797119.910191
+e325797120.858448
+r1
+xLd
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection176"Link /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS0325e9ff446bb341^1ac4db00456bb341^---0#0#0#--1393"Ld build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS normal i386    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -filelist /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/Objects-normal/i386/TheGreatMigration-iOS.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -framework QuartzCore -framework OpenGLES -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/TheGreatMigration-iOS
+
+CProcessInfoPlistFile /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Info.plist TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist
+s325797116.618489
+e325797116.671846
+r1
+xProcessInfoPlistFile
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Info.plist
+xTheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Process TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plistbd55a7fc446bb341^ca35c1fc446bb341^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist0000000000000000^855"ProcessInfoPlistFile build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Info.plist TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist -genpkginfo /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app/Info.plist
+
+CProcessPCH /Users/ca/Library/Developer/Xcode/DerivedData/TheGreatMigration-iOS-dqdbqdxbulmqaueelqgtkaglhqna/Index/PrecompiledHeaders/TheGreatMigration-iOS-Prefix-fpsqxyqmybijyibovttlyvagloql_ast/TheGreatMigration-iOS-Prefix.pch.pth TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch.gch TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s325797116.673639
+e325797119.586077
+r1
+xProcessPCH
+x/var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch.gch
+xTheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precompile TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pcha6b6acfc446bb341^c00896ff446bb341^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch0000000000000000^2972"ProcessPCH /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch.gch TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch -o /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-cyfisxeklauqahavwpyebiuambkg/TheGreatMigration-iOS-Prefix.pch.gch
+
+CProcessPCH /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch.pth TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s325797116.673854
+e325797118.916282
+r1
+xProcessPCH
+x/var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch.pth
+xTheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precompile TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch24d4acfc446bb341^139ceafe446bb341^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch0000000000000000^3234"ProcessPCH /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch.pth TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch -o /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-eqltkojucmsdywbyjuukmdivbyau/TheGreatMigration-iOS-Prefix.pch.pth
+
+CProcessPCH++ /Users/ca/Library/Developer/Xcode/DerivedData/TheGreatMigration-iOS-dqdbqdxbulmqaueelqgtkaglhqna/Index/PrecompiledHeaders/TheGreatMigration-iOS-Prefix-fswsbrldvqmmkjgcpavmrnylpult_ast/TheGreatMigration-iOS-Prefix.pch.pth TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-gvvplhpcdpyrnjaywdbvycquifsf/TheGreatMigration-iOS-Prefix.pch.gch TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+s325797766.400190
+e325797766.656606
+r1
+xProcessPCH++
+x/var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-gvvplhpcdpyrnjaywdbvycquifsf/TheGreatMigration-iOS-Prefix.pch.gch
+xTheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precompile TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch81966686476bb341^7b16a886476bb341^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch0000000000000000^2931"ProcessPCH++ /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-gvvplhpcdpyrnjaywdbvycquifsf/TheGreatMigration-iOS-Prefix.pch.gch TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-generated-files.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-own-target-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-all-target-headers.hmap -iquote /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/TheGreatMigration-iOS-project-headers.hmap -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/include -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources/i386 -I/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/TheGreatMigration-iOS.build/Debug-iphonesimulator/TheGreatMigration-iOS.build/DerivedSources -F/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch -o /var/folders/nA/nACgIXyOFnSPmriTs-epeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheGreatMigration-iOS-Prefix-gvvplhpcdpyrnjaywdbvycquifsf/TheGreatMigration-iOS-Prefix.pch.gch
+
+CTouch /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app
+s325797125.731137
+e325797125.780633
+r1
+xTouch
+x/Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Touch /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app2c44bb05456bb341^6bd8c705456bb341^---0#0#0#--466"Touch build/Debug-iphonesimulator/TheGreatMigration-iOS.app    cd /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ca/Documents/CONCORDIA/OBX/TheGreatMigration/TheGreatMigration-iOS/TheGreatMigration-iOS/build/Debug-iphonesimulator/TheGreatMigration-iOS.app
+

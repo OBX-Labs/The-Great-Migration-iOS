@@ -1,0 +1,77 @@
+10
+
+dir
+16
+svn+ssh://hex-smaheu@svn.hexagram.ca/scm/hex-prj-obx/Migration/iOS/trunk/TheGreatMigration-iOS/TheGreatMigration-iOS/include/ShareKit
+svn+ssh://hex-smaheu@svn.hexagram.ca/scm/hex-prj-obx/Migration
+
+
+
+2011-11-16T20:20:26.982035Z
+6
+bnadeau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+42ecc700-0bf5-46b2-83df-dfe1bc80c2fc
+
+Customize UI
+dir
+
+Reachability
+dir
+
+SHKConfig.h
+file
+
+
+
+
+2013-05-01T13:56:34.000000Z
+1623424e24e5a19f49043c2242f277af
+2011-11-09T17:50:51.649621Z
+1
+bnadeau
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6612
+
+Sharers
+dir
+
+Core
+dir
+
+UI
+dir
+

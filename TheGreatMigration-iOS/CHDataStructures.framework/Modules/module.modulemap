@@ -1,0 +1,6 @@
+framework module CHDataStructures {
+  umbrella header "CHDataStructures.h"
+
+  export *
+  module * { export * }
+}

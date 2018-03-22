@@ -16,7 +16,9 @@
 #import "TouchParticle.h"
 #import "MainSettings.h"
 
-#import "CHDataStructures.h"
+//#import "CHDataStructures.h"
+//#import "CHDataStructures/CHDataStructures.h"
+
 
 @implementation MainController
 

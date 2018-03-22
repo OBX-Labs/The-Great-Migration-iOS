@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,11 +42,6 @@
 		023D80A7136B43EF00972F52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 023D80A5136B43EF00972F52 /* InfoPlist.strings */; };
 		023D80B2136B43F000972F52 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023D80B1136B43EF00972F52 /* Shader.fsh */; };
 		023D80B4136B43F000972F52 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023D80B3136B43F000972F52 /* Shader.vsh */; };
-		023D80C4136B43F000972F52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8098136B43EF00972F52 /* UIKit.framework */; };
-		023D80C5136B43F000972F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023D809A136B43EF00972F52 /* Foundation.framework */; };
-		023D80C6136B43F000972F52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023D809C136B43EF00972F52 /* CoreGraphics.framework */; };
-		023D80D1136B43F000972F52 /* TheGreatMigration_iOSTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 023D80D0136B43F000972F52 /* TheGreatMigration_iOSTests.h */; };
-		023D80D3136B43F000972F52 /* TheGreatMigration_iOSTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 023D80D2136B43F000972F52 /* TheGreatMigration_iOSTests.mm */; };
 		024A76C513C0CFCE00F46C89 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 024A76C113C0CFCE00F46C89 /* ES1Renderer.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		02928C8C138DABE100341A9A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02928C8B138DABE100341A9A /* Entitlements.plist */; };
 		02A11A561393E99A00418834 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 023D80A9136B43EF00972F52 /* main.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -75,7 +70,10 @@
 		157D3404142CFF0D00E40FA5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157D3403142CFF0D00E40FA5 /* Security.framework */; };
 		15D8620B145B41910033F558 /* sharekit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D8620A145B41910033F558 /* sharekit@2x.png */; };
 		15FA3079140EB4C20076FC25 /* olvr93w-64.tes in Resources */ = {isa = PBXBuildFile; fileRef = 15FA3078140EB4C20076FC25 /* olvr93w-64.tes */; };
-		950A96061774B75100E4A610 /* libCHDataStructures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950A96051774B75100E4A610 /* libCHDataStructures.a */; };
+		577D8D3E20485E9F002A58B6 /* libCHDataStructuresFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D8D3D20485E9F002A58B6 /* libCHDataStructuresFinal.a */; };
+		577D8D4020485FC4002A58B6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577D8D3F20485FC4002A58B6 /* Media.xcassets */; };
+		577D8D4420486D72002A58B6 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 577D8D4220486D71002A58B6 /* include */; };
+		577D8D4520486D72002A58B6 /* libCHDataStructuresFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D8D4320486D72002A58B6 /* libCHDataStructuresFinal.a */; };
 		951C5058189046210003744C /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C5057189046210003744C /* color.png */; };
 		951C505918904ADC0003744C /* Museo-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95269E371731603E00A4EDEA /* Museo-500.otf */; };
 		951C506018904DC00003744C /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C505A18904DC00003744C /* death.png */; };
@@ -207,15 +205,28 @@
 		E18149DF141E44B000999054 /* AgingLinkedList.mm in Sources */ = {isa = PBXBuildFile; fileRef = E18149DE141E44B000999054 /* AgingLinkedList.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		023D80C7136B43F000972F52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 023D808B136B43EF00972F52 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 023D8093136B43EF00972F52;
-			remoteInfo = "TheGreatMigration-iOS";
+/* Begin PBXCopyFilesBuildPhase section */
+		935E37B820125C6B001AC141 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+		935E37BC20125DB3001AC141 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0227964413F2F2C90009FFA1 /* KineticObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KineticObject.h; sourceTree = "<group>"; };
@@ -288,7 +299,6 @@
 		023D80B3136B43F000972F52 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		023D80B5136B43F000972F52 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		023D80B6136B43F000972F52 /* EAGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
-		023D80C3136B43F000972F52 /* TheGreatMigration-iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheGreatMigration-iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023D80D0136B43F000972F52 /* TheGreatMigration_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheGreatMigration_iOSTests.h; sourceTree = "<group>"; };
 		023D80D2136B43F000972F52 /* TheGreatMigration_iOSTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TheGreatMigration_iOSTests.mm; sourceTree = "<group>"; };
 		023D80E8136B472B00972F52 /* triangulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangulate.cpp; sourceTree = "<group>"; };
@@ -335,7 +345,11 @@
 		157D3403142CFF0D00E40FA5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		15D8620A145B41910033F558 /* sharekit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sharekit@2x.png"; sourceTree = "<group>"; };
 		15FA3078140EB4C20076FC25 /* olvr93w-64.tes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "olvr93w-64.tes"; sourceTree = "<group>"; };
-		950A96051774B75100E4A610 /* libCHDataStructures.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCHDataStructures.a; path = "TheGreatMigration-iOS/resources/libCHDataStructure/libCHDataStructures.a"; sourceTree = "<group>"; };
+		571BB7BC202CCE7D00057891 /* TheGreatMigration-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TheGreatMigration-iOS"; sourceTree = "<group>"; };
+		577D8D3D20485E9F002A58B6 /* libCHDataStructuresFinal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCHDataStructuresFinal.a; path = CHDataLib/libCHDataStructuresFinal.a; sourceTree = "<group>"; };
+		577D8D3F20485FC4002A58B6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		577D8D4220486D71002A58B6 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		577D8D4320486D72002A58B6 /* libCHDataStructuresFinal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCHDataStructuresFinal.a; sourceTree = "<group>"; };
 		951C5057189046210003744C /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
 		951C505A18904DC00003744C /* death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death.png; sourceTree = "<group>"; };
 		951C505B18904DC00003744C /* death@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death@2x.png"; sourceTree = "<group>"; };
@@ -496,7 +510,6 @@
 		95AEAC141810247A00B65A3A /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		95AEAC151810247A00B65A3A /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
 		D2D49CC41589A4C9008BAEA2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		E126481214631B16007886DA /* CHDataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHDataStructures.h; path = include/CHDataStructures/CHDataStructures.h; sourceTree = "<group>"; };
 		E1658C6B13F096240094174F /* shadow32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow32.png; sourceTree = "<group>"; };
 		E1658C6D13F0968B0094174F /* shadow8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow8.png; sourceTree = "<group>"; };
 		E177641B140C076A001B5C2A /* olvr93w.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = olvr93w.fnt; path = "olvr93w/tessdetail-1/olvr93w.fnt"; sourceTree = "<group>"; };
@@ -513,9 +526,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950A96061774B75100E4A610 /* libCHDataStructures.a in Frameworks */,
+				577D8D3E20485E9F002A58B6 /* libCHDataStructuresFinal.a in Frameworks */,
 				95AC35101768D3FB00658D26 /* libz.dylib in Frameworks */,
 				95269ED11731615200A4EDEA /* StoreKit.framework in Frameworks */,
+				577D8D4520486D72002A58B6 /* libCHDataStructuresFinal.a in Frameworks */,
 				95269ECF1731614100A4EDEA /* Social.framework in Frameworks */,
 				95269ECD1731613600A4EDEA /* Accounts.framework in Frameworks */,
 				157D3404142CFF0D00E40FA5 /* Security.framework in Frameworks */,
@@ -528,16 +542,6 @@
 				023D809D136B43EF00972F52 /* CoreGraphics.framework in Frameworks */,
 				023D809F136B43EF00972F52 /* QuartzCore.framework in Frameworks */,
 				023D80A1136B43EF00972F52 /* OpenGLES.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		023D80BF136B43F000972F52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				023D80C4136B43F000972F52 /* UIKit.framework in Frameworks */,
-				023D80C5136B43F000972F52 /* Foundation.framework in Frameworks */,
-				023D80C6136B43F000972F52 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +651,7 @@
 		023D8089136B43EF00972F52 = {
 			isa = PBXGroup;
 			children = (
-				950A96051774B75100E4A610 /* libCHDataStructures.a */,
+				577D8D3F20485FC4002A58B6 /* Media.xcassets */,
 				D2D49CC41589A4C9008BAEA2 /* Settings.bundle */,
 				023D80A2136B43EF00972F52 /* TheGreatMigration-iOS */,
 				023D80C9136B43F000972F52 /* TheGreatMigration-iOSTests */,
@@ -660,7 +664,6 @@
 			isa = PBXGroup;
 			children = (
 				023D8094136B43EF00972F52 /* TheGreatMigration-iOS.app */,
-				023D80C3136B43F000972F52 /* TheGreatMigration-iOSTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -668,6 +671,8 @@
 		023D8097136B43EF00972F52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				577D8D3D20485E9F002A58B6 /* libCHDataStructuresFinal.a */,
+				571BB7BC202CCE7D00057891 /* TheGreatMigration-iOS */,
 				95269ED01731615200A4EDEA /* StoreKit.framework */,
 				95269ECE1731614100A4EDEA /* Social.framework */,
 				95269ECC1731613600A4EDEA /* Accounts.framework */,
@@ -688,6 +693,7 @@
 		023D80A2136B43EF00972F52 /* TheGreatMigration-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				577D8D4120486D63002A58B6 /* CHData */,
 				95269DD11731603E00A4EDEA /* OKPoEMM */,
 				155D660E142D0C37001B3EF5 /* MainViewController.h */,
 				155D660F142D0C37001B3EF5 /* MainViewController.mm */,
@@ -736,7 +742,6 @@
 		025858481386CBD30063CBA0 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				E126481214631B16007886DA /* CHDataStructures.h */,
 				E18149DA141E389B00999054 /* TouchParticle.h */,
 				E18149DB141E389B00999054 /* TouchParticle.mm */,
 				02B8BE03138AC96A00CD45D3 /* utils */,
@@ -828,6 +833,15 @@
 				02FBF96C136F2D05007D852B /* Vect3.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		577D8D4120486D63002A58B6 /* CHData */ = {
+			isa = PBXGroup;
+			children = (
+				577D8D4220486D71002A58B6 /* include */,
+				577D8D4320486D72002A58B6 /* libCHDataStructuresFinal.a */,
+			);
+			path = CHData;
 			sourceTree = "<group>";
 		};
 		951C5056189046210003744C /* ColorTint */ = {
@@ -1288,6 +1302,8 @@
 				023D8090136B43EF00972F52 /* Sources */,
 				023D8091136B43EF00972F52 /* Frameworks */,
 				023D8092136B43EF00972F52 /* Resources */,
+				935E37B820125C6B001AC141 /* Embed Frameworks */,
+				935E37BC20125DB3001AC141 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -1298,40 +1314,21 @@
 			productReference = 023D8094136B43EF00972F52 /* TheGreatMigration-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		023D80C2136B43F000972F52 /* TheGreatMigration-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 023D80D9136B43F000972F52 /* Build configuration list for PBXNativeTarget "TheGreatMigration-iOSTests" */;
-			buildPhases = (
-				023D80BE136B43F000972F52 /* Sources */,
-				023D80BF136B43F000972F52 /* Frameworks */,
-				023D80C0136B43F000972F52 /* Resources */,
-				023D80C1136B43F000972F52 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				023D80C8136B43F000972F52 /* PBXTargetDependency */,
-			);
-			name = "TheGreatMigration-iOSTests";
-			productName = "TheGreatMigration-iOSTests";
-			productReference = 023D80C3136B43F000972F52 /* TheGreatMigration-iOSTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		023D808B136B43EF00972F52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0920;
 				TargetAttributes = {
 					023D8093136B43EF00972F52 = {
-						DevelopmentTeam = 6B68QQG3FR;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 023D808E136B43EF00972F52 /* Build configuration list for PBXProject "TheGreatMigration-iOS" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1345,7 +1342,6 @@
 			projectRoot = "";
 			targets = (
 				023D8093136B43EF00972F52 /* TheGreatMigration-iOS */,
-				023D80C2136B43F000972F52 /* TheGreatMigration-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1422,6 +1418,7 @@
 				95269EB91731603E00A4EDEA /* speak@2x.png in Resources */,
 				95269EBA1731603E00A4EDEA /* placeholder.png in Resources */,
 				95269EBB1731603E00A4EDEA /* placeholder@2x.png in Resources */,
+				577D8D4020485FC4002A58B6 /* Media.xcassets in Resources */,
 				95269EBC1731603E00A4EDEA /* facebook.png in Resources */,
 				951C5058189046210003744C /* color.png in Resources */,
 				95269EBD1731603E00A4EDEA /* facebook@2x.png in Resources */,
@@ -1458,34 +1455,11 @@
 				95AC352E1768F5F800658D26 /* iTunesArtwork.png in Resources */,
 				95AC352F1768F5F800658D26 /* iTunesArtwork@2x.png in Resources */,
 				95AC35351769029700658D26 /* Icon-72@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		023D80C0136B43F000972F52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				023D80D1136B43F000972F52 /* TheGreatMigration_iOSTests.h in Resources */,
+				577D8D4420486D72002A58B6 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		023D80C1136B43F000972F52 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		023D8090136B43EF00972F52 /* Sources */ = {
@@ -1570,23 +1544,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		023D80BE136B43F000972F52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				023D80D3136B43F000972F52 /* TheGreatMigration_iOSTests.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		023D80C8136B43F000972F52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 023D8093136B43EF00972F52 /* TheGreatMigration-iOS */;
-			targetProxy = 023D80C7136B43F000972F52 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		023D80A5136B43EF00972F52 /* InfoPlist.strings */ = {
@@ -1604,24 +1562,47 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = armv7;
 				BUILD_VARIANTS = normal;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Lewis (6994C36BD5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Lewis (6994C36BD5)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/include/CHDataStructures",
 					"/usr/include/libxml2/**",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "61898E58-F707-4711-A6A2-D6420ED25D7E";
@@ -1639,19 +1620,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = armv7;
 				BUILD_VARIANTS = normal;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/include/CHDataStructures",
 					"/usr/include/libxml2/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1670,12 +1672,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Lewis (6994C36BD5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Lewis (6994C36BD5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch";
@@ -1687,19 +1692,24 @@
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = "TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/**",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK0.7.2\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK1.2.6\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources/libCHDataStructure\"",
+					"$(PROJECT_DIR)/CHDataLib",
+					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Migration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "57c52e31-c38d-426c-8c89-31e9097c1204";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "57c52e31-c38d-426c-8c89-31e9097c1204";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -1711,12 +1721,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = YES;
@@ -1730,18 +1743,23 @@
 					"TheGreatMigration-iOS/**",
 				);
 				INFOPLIST_FILE = "TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/**",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK0.7.2\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK1.2.6\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources/libCHDataStructure\"",
+					"$(PROJECT_DIR)/CHDataLib",
+					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
 				);
 				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Migration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6fd4bce9-14c1-48ea-b939-d0b4bfff1151";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6fd4bce9-14c1-48ea-b939-d0b4bfff1151";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
@@ -1750,67 +1768,32 @@
 			};
 			name = Release;
 		};
-		023D80DA136B43F000972F52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheGreatMigration-iOS.app/TheGreatMigration-iOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TheGreatMigration-iOSTests/TheGreatMigration-iOSTests-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
-				INFOPLIST_FILE = "TheGreatMigration-iOSTests/TheGreatMigration-iOSTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-					"-lxml2",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		023D80DB136B43F000972F52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheGreatMigration-iOS.app/TheGreatMigration-iOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TheGreatMigration-iOSTests/TheGreatMigration-iOSTests-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
-				INFOPLIST_FILE = "TheGreatMigration-iOSTests/TheGreatMigration-iOSTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-					"-lxml2",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 		15D86205145B35C30033F558 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = armv7;
 				BUILD_VARIANTS = normal;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TESTFLIGHT,
@@ -1818,14 +1801,18 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/include/CHDataStructures",
 					"/usr/include/libxml2/**",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1844,12 +1831,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch";
@@ -1861,49 +1851,28 @@
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = "TheGreatMigration-iOS/TheGreatMigration-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/**",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK0.7.2\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK1.2.6\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources/libCHDataStructure\"",
+					"$(PROJECT_DIR)/CHDataLib",
+					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
 				);
 				OTHER_CFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Migration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FCB3DD54-8FFB-4513-A8AE-DFABF1731F7F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FCB3DD54-8FFB-4513-A8AE-DFABF1731F7F";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
-			};
-			name = AdHoc;
-		};
-		15D86207145B35C30033F558 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheGreatMigration-iOS.app/TheGreatMigration-iOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TheGreatMigration-iOSTests/TheGreatMigration-iOSTests-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
-				INFOPLIST_FILE = "TheGreatMigration-iOSTests/TheGreatMigration-iOSTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-					"-lxml2",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = AdHoc;
 		};
@@ -1926,16 +1895,6 @@
 				023D80D7136B43F000972F52 /* Debug */,
 				15D86206145B35C30033F558 /* AdHoc */,
 				023D80D8136B43F000972F52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		023D80D9136B43F000972F52 /* Build configuration list for PBXNativeTarget "TheGreatMigration-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				023D80DA136B43F000972F52 /* Debug */,
-				15D86207145B35C30033F558 /* AdHoc */,
-				023D80DB136B43F000972F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

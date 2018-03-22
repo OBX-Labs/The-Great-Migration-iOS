@@ -1,0 +1,46 @@
+10
+
+dir
+16
+svn+ssh://hex-smaheu@svn.hexagram.ca/scm/hex-prj-obx/Migration/iOS/trunk/TheGreatMigration-iOS
+svn+ssh://hex-smaheu@svn.hexagram.ca/scm/hex-prj-obx/Migration
+
+
+
+2012-11-20T21:51:22.054455Z
+16
+bnadeau
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+42ecc700-0bf5-46b2-83df-dfe1bc80c2fc
+
+build
+dir
+
+TheGreatMigration-iOS.xcodeproj
+dir
+
+releases
+dir
+
+TheGreatMigration-iOS
+dir
+
+Settings.bundle
+dir
+
+TheGreatMigration-iOSTests
+dir
+
