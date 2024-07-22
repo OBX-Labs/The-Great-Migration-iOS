@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'TheGreatMigration-iOSTests' target in the 'TheGreatMigration-iOSTests' project
-//
-
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-#endif
