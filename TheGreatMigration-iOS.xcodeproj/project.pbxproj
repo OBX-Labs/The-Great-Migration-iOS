@@ -84,7 +84,6 @@
 		951C506318904DC00003744C /* rattlesnakes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C505D18904DC00003744C /* rattlesnakes@2x.png */; };
 		951C506418904DC00003744C /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C505E18904DC00003744C /* white.png */; };
 		951C506518904DC00003744C /* white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 951C505F18904DC00003744C /* white@2x.png */; };
-		95269E721731603E00A4EDEA /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 95269DD41731603E00A4EDEA /* Appirater.m */; };
 		95269E731731603E00A4EDEA /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95269DD81731603E00A4EDEA /* DejalActivityView.m */; };
 		95269E741731603E00A4EDEA /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 95269DDF1731603E00A4EDEA /* OKNewAccount.m */; };
 		95269E751731603E00A4EDEA /* OKRequestPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 95269DE11731603E00A4EDEA /* OKRequestPassword.m */; };
@@ -378,9 +377,6 @@
 		951C505D18904DC00003744C /* rattlesnakes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rattlesnakes@2x.png"; sourceTree = "<group>"; };
 		951C505E18904DC00003744C /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		951C505F18904DC00003744C /* white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white@2x.png"; sourceTree = "<group>"; };
-		95269DD31731603E00A4EDEA /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		95269DD41731603E00A4EDEA /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
-		95269DD51731603E00A4EDEA /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		95269DD71731603E00A4EDEA /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		95269DD81731603E00A4EDEA /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		95269DDB1731603E00A4EDEA /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
@@ -887,7 +883,6 @@
 		95269DD11731603E00A4EDEA /* OKPoEMM */ = {
 			isa = PBXGroup;
 			children = (
-				95269DD21731603E00A4EDEA /* Appirater */,
 				95269DD61731603E00A4EDEA /* DSActivityView */,
 				95269DD91731603E00A4EDEA /* libs */,
 				95269DDC1731603E00A4EDEA /* OKAccountManager */,
@@ -904,16 +899,6 @@
 				95269E2C1731603E00A4EDEA /* Resources */,
 			);
 			path = OKPoEMM;
-			sourceTree = "<group>";
-		};
-		95269DD21731603E00A4EDEA /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				95269DD31731603E00A4EDEA /* Appirater.h */,
-				95269DD41731603E00A4EDEA /* Appirater.m */,
-				95269DD51731603E00A4EDEA /* AppiraterDelegate.h */,
-			);
-			path = Appirater;
 			sourceTree = "<group>";
 		};
 		95269DD61731603E00A4EDEA /* DSActivityView */ = {
@@ -1563,7 +1548,6 @@
 				02F786C714292803008BDD49 /* OKClearView.m in Sources */,
 				02F786CA14292809008BDD49 /* TextsNavigationController.m in Sources */,
 				155D6610142D0C38001B3EF5 /* MainViewController.mm in Sources */,
-				95269E721731603E00A4EDEA /* Appirater.m in Sources */,
 				95269E731731603E00A4EDEA /* DejalActivityView.m in Sources */,
 				95269E741731603E00A4EDEA /* OKNewAccount.m in Sources */,
 				95269E751731603E00A4EDEA /* OKRequestPassword.m in Sources */,

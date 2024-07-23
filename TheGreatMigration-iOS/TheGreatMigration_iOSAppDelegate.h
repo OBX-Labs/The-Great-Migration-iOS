@@ -47,12 +47,11 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "Appirater.h"
 
 @class EAGLView;
 @class OKPoEMM;
 
-@interface TheGreatMigration_iOSAppDelegate : UIResponder <UIApplicationDelegate, AppiraterDelegate>
+@interface TheGreatMigration_iOSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, strong) EAGLView *eaglView;
