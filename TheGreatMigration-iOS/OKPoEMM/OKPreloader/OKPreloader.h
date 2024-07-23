@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class TheGreatMigration_iOSAppDelegate;
+@class AppDelegate;
 
 @interface OKPreloader : UIViewController
 {
     CGRect frame;
-    TheGreatMigration_iOSAppDelegate *delegate;
+    AppDelegate *delegate;
     BOOL loadOnAppear;
 }
 
-- (id) initWithFrame:(CGRect)aFrame forApp:(TheGreatMigration_iOSAppDelegate*)aDelegate loadOnAppear:(BOOL)flag;
+- (id) initWithFrame:(CGRect)aFrame forApp:(AppDelegate*)aDelegate loadOnAppear:(BOOL)flag;
 
 @end

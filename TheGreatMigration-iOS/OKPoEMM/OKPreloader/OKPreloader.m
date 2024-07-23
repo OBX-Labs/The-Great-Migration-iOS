@@ -7,8 +7,7 @@
 //
 
 #import "OKPreloader.h"
-#import "TheGreatMigration_iOSAppDelegate.h"
-//#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "OKAppProperties.h"
 
 #define M_PI 3.14159265358979323846264338327950288f
@@ -20,7 +19,7 @@
 
 @implementation OKPreloader
 
-- (id) initWithFrame:(CGRect)aFrame forApp:(TheGreatMigration_iOSAppDelegate *)aDelegate loadOnAppear:(BOOL)flag
+- (id) initWithFrame:(CGRect)aFrame forApp:(AppDelegate *)aDelegate loadOnAppear:(BOOL)flag
 {
     self = [super init];
     if(self)

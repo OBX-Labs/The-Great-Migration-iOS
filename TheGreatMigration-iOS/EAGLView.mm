@@ -51,7 +51,7 @@
 #import "EAGLView.h"
 
 #import "ES1Renderer.h"
-#import "TheGreatMigration_iOSAppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 
 #import <CoreFoundation/CFDictionary.h>
 
@@ -480,7 +480,7 @@
     //check if this is our first touch
     //to detect taps for the info view
     if (firstTouch == touch) {
-        TheGreatMigration_iOSAppDelegate* delegate = (TheGreatMigration_iOSAppDelegate*)[UIApplication sharedApplication].delegate;
+        AppDelegate* delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
         
         //convert the UITouch location to the OpenGL location
         //TODO view bounds should be stored in the init, not every touch

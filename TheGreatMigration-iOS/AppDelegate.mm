@@ -46,7 +46,7 @@
  
  */
 
-#import "TheGreatMigration_iOSAppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 #import "MainSettings.h"
 #import "TestFlight.h"
@@ -58,7 +58,7 @@
 #import "OKPoEMMProperties.h"
 #import "OKInfoViewProperties.h"
 
-@implementation TheGreatMigration_iOSAppDelegate
+@implementation AppDelegate
 
 @synthesize window;
 //@synthesize mainView;

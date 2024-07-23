@@ -54,7 +54,7 @@
 		02E8515D138FF542003CA97C /* MainController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02B8BDE31389608500CD45D3 /* MainController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		02E8515F138FF542003CA97C /* Rectangle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 025858351386A4990063CBA0 /* Rectangle.mm */; };
 		02E85168138FF542003CA97C /* Vect3.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02FBF96B136F2D05007D852B /* Vect3.mm */; };
-		02E85169138FF542003CA97C /* TheGreatMigration_iOSAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 023D80AC136B43EF00972F52 /* TheGreatMigration_iOSAppDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		02E85169138FF542003CA97C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 023D80AC136B43EF00972F52 /* AppDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		02F785DB14290026008BDD49 /* TouchInterceptionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F785DA14290026008BDD49 /* TouchInterceptionWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		02F786C714292803008BDD49 /* OKClearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F786C614292803008BDD49 /* OKClearView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		02F786CA14292809008BDD49 /* TextsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F786C914292809008BDD49 /* TextsNavigationController.m */; };
@@ -70,8 +70,8 @@
 		157D3404142CFF0D00E40FA5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157D3403142CFF0D00E40FA5 /* Security.framework */; };
 		15D8620B145B41910033F558 /* sharekit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D8620A145B41910033F558 /* sharekit@2x.png */; };
 		15FA3079140EB4C20076FC25 /* olvr93w-64.tes in Resources */ = {isa = PBXBuildFile; fileRef = 15FA3078140EB4C20076FC25 /* olvr93w-64.tes */; };
-		273059472C4F3C5600F13429 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273059442C4F3C4700F13429 /* OBXKit.framework */; };
-		273059482C4F3C5600F13429 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 273059442C4F3C4700F13429 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A81A672C50197E00BD029E /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A81A662C50197E00BD029E /* OBXKit.framework */; };
+		27A81A682C50197E00BD029E /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27A81A662C50197E00BD029E /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		577D8D3E20485E9F002A58B6 /* libCHDataStructuresFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D8D3D20485E9F002A58B6 /* libCHDataStructuresFinal.a */; };
 		577D8D4020485FC4002A58B6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577D8D3F20485FC4002A58B6 /* Media.xcassets */; };
 		577D8D4420486D72002A58B6 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 577D8D4220486D71002A58B6 /* include */; };
@@ -206,23 +206,6 @@
 		E18149DF141E44B000999054 /* AgingLinkedList.mm in Sources */ = {isa = PBXBuildFile; fileRef = E18149DE141E44B000999054 /* AgingLinkedList.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		273059432C4F3C4700F13429 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2730593E2C4F3C4700F13429 /* OBXKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 276D548A2C1256600006FB3F;
-			remoteInfo = OBXKit;
-		};
-		273059452C4F3C4700F13429 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2730593E2C4F3C4700F13429 /* OBXKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 276D54942C1256600006FB3F;
-			remoteInfo = OBXKitTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		935E37B820125C6B001AC141 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -230,7 +213,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				273059482C4F3C5600F13429 /* OBXKit.framework in Embed Frameworks */,
+				27A81A682C50197E00BD029E /* OBXKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,8 +295,7 @@
 		023D80A6136B43EF00972F52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		023D80A8136B43EF00972F52 /* TheGreatMigration-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheGreatMigration-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		023D80A9136B43EF00972F52 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		023D80AB136B43EF00972F52 /* TheGreatMigration_iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheGreatMigration_iOSAppDelegate.h; sourceTree = "<group>"; };
-		023D80AC136B43EF00972F52 /* TheGreatMigration_iOSAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TheGreatMigration_iOSAppDelegate.mm; sourceTree = "<group>"; };
+		023D80AC136B43EF00972F52 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		023D80B1136B43EF00972F52 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		023D80B3136B43F000972F52 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		023D80B5136B43F000972F52 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
@@ -364,7 +346,7 @@
 		157D3403142CFF0D00E40FA5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		15D8620A145B41910033F558 /* sharekit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sharekit@2x.png"; sourceTree = "<group>"; };
 		15FA3078140EB4C20076FC25 /* olvr93w-64.tes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "olvr93w-64.tes"; sourceTree = "<group>"; };
-		2730593E2C4F3C4700F13429 /* OBXKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OBXKit.xcodeproj; path = ../OBXKit/OBXKit.xcodeproj; sourceTree = "<group>"; };
+		27A81A662C50197E00BD029E /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		571BB7BC202CCE7D00057891 /* TheGreatMigration-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TheGreatMigration-iOS"; sourceTree = "<group>"; };
 		577D8D3D20485E9F002A58B6 /* libCHDataStructuresFinal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCHDataStructuresFinal.a; path = CHDataLib/libCHDataStructuresFinal.a; sourceTree = "<group>"; };
 		577D8D3F20485FC4002A58B6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -555,7 +537,7 @@
 				0237A28013B9149400D51BED /* libxml2.dylib in Frameworks */,
 				95AC350E1768D3AD00658D26 /* libTestFlight.a in Frameworks */,
 				023D8099136B43EF00972F52 /* UIKit.framework in Frameworks */,
-				273059472C4F3C5600F13429 /* OBXKit.framework in Frameworks */,
+				27A81A672C50197E00BD029E /* OBXKit.framework in Frameworks */,
 				023D809B136B43EF00972F52 /* Foundation.framework in Frameworks */,
 				023D809D136B43EF00972F52 /* CoreGraphics.framework in Frameworks */,
 				023D809F136B43EF00972F52 /* QuartzCore.framework in Frameworks */,
@@ -669,7 +651,6 @@
 		023D8089136B43EF00972F52 = {
 			isa = PBXGroup;
 			children = (
-				2730593E2C4F3C4700F13429 /* OBXKit.xcodeproj */,
 				577D8D3F20485FC4002A58B6 /* Media.xcassets */,
 				D2D49CC41589A4C9008BAEA2 /* Settings.bundle */,
 				023D80A2136B43EF00972F52 /* TheGreatMigration-iOS */,
@@ -690,6 +671,7 @@
 		023D8097136B43EF00972F52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27A81A662C50197E00BD029E /* OBXKit.framework */,
 				577D8D3D20485E9F002A58B6 /* libCHDataStructuresFinal.a */,
 				571BB7BC202CCE7D00057891 /* TheGreatMigration-iOS */,
 				95269ED01731615200A4EDEA /* StoreKit.framework */,
@@ -722,8 +704,7 @@
 				025858481386CBD30063CBA0 /* classes */,
 				02FBF8EE136F03DF007D852B /* include */,
 				023D80E8136B472B00972F52 /* triangulate.cpp */,
-				023D80AB136B43EF00972F52 /* TheGreatMigration_iOSAppDelegate.h */,
-				023D80AC136B43EF00972F52 /* TheGreatMigration_iOSAppDelegate.mm */,
+				023D80AC136B43EF00972F52 /* AppDelegate.mm */,
 				023D80B5136B43F000972F52 /* EAGLView.h */,
 				023D80B6136B43F000972F52 /* EAGLView.mm */,
 				023D80B1136B43EF00972F52 /* Shader.fsh */,
@@ -852,15 +833,6 @@
 				02FBF96C136F2D05007D852B /* Vect3.h */,
 			);
 			path = include;
-			sourceTree = "<group>";
-		};
-		2730593F2C4F3C4700F13429 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				273059442C4F3C4700F13429 /* OBXKit.framework */,
-				273059462C4F3C4700F13429 /* OBXKitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		577D8D4120486D63002A58B6 /* CHData */ = {
@@ -1356,35 +1328,12 @@
 			mainGroup = 023D8089136B43EF00972F52;
 			productRefGroup = 023D8095136B43EF00972F52 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2730593F2C4F3C4700F13429 /* Products */;
-					ProjectRef = 2730593E2C4F3C4700F13429 /* OBXKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				023D8093136B43EF00972F52 /* TheGreatMigration-iOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		273059442C4F3C4700F13429 /* OBXKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OBXKit.framework;
-			remoteRef = 273059432C4F3C4700F13429 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		273059462C4F3C4700F13429 /* OBXKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OBXKitTests.xctest;
-			remoteRef = 273059452C4F3C4700F13429 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		023D8092136B43EF00972F52 /* Resources */ = {
@@ -1509,7 +1458,7 @@
 				02E8515D138FF542003CA97C /* MainController.mm in Sources */,
 				02E8515F138FF542003CA97C /* Rectangle.mm in Sources */,
 				02E85168138FF542003CA97C /* Vect3.mm in Sources */,
-				02E85169138FF542003CA97C /* TheGreatMigration_iOSAppDelegate.mm in Sources */,
+				02E85169138FF542003CA97C /* AppDelegate.mm in Sources */,
 				02D0E7451394015900F395BF /* EAGLView.mm in Sources */,
 				02A11A561393E99A00418834 /* main.mm in Sources */,
 				02D0E74C1394563700F395BF /* PerlinTexture.mm in Sources */,
