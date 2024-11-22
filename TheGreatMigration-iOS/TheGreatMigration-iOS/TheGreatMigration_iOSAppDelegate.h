@@ -50,14 +50,13 @@
 //#import "MainViewController.h"
 //#import "TouchInterceptionWindow.h"
 //#import "InfoController.h"
-#import "Appirater.h"
 
 @class EAGLView;
 //@class MainViewController;
 @class OKPoEMM;
 
 //@interface TheGreatMigration_iOSAppDelegate : NSObject <UIApplicationDelegate> {
-@interface TheGreatMigration_iOSAppDelegate : UIResponder <UIApplicationDelegate, AppiraterDelegate>
+@interface TheGreatMigration_iOSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, strong) EAGLView *eaglView;
