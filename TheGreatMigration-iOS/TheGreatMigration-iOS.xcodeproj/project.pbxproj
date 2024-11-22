@@ -173,9 +173,6 @@
 		95269ECD1731613600A4EDEA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95269ECC1731613600A4EDEA /* Accounts.framework */; };
 		95269ECF1731614100A4EDEA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95269ECE1731614100A4EDEA /* Social.framework */; };
 		95269ED11731615200A4EDEA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95269ED01731615200A4EDEA /* StoreKit.framework */; };
-		95AC350B1768D14900658D26 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95AC35071768D14900658D26 /* README.md */; };
-		95AC350C1768D14900658D26 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 95AC35081768D14900658D26 /* release_notes.md */; };
-		95AC350E1768D3AD00658D26 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AC35061768D14900658D26 /* libTestFlight.a */; };
 		95AC35101768D3FB00658D26 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AC350F1768D3FA00658D26 /* libz.dylib */; };
 		95AC35211768F5F800658D26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95AC35121768F5F800658D26 /* Default-568h@2x.png */; };
 		95AC35221768F5F800658D26 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 95AC35131768F5F800658D26 /* Default-Landscape.png */; };
@@ -362,7 +359,6 @@
 		95269DD51731603E00A4EDEA /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		95269DD71731603E00A4EDEA /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		95269DD81731603E00A4EDEA /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
-		95269DDB1731603E00A4EDEA /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		95269DDE1731603E00A4EDEA /* OKNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNewAccount.h; sourceTree = "<group>"; };
 		95269DDF1731603E00A4EDEA /* OKNewAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKNewAccount.m; sourceTree = "<group>"; };
 		95269DE01731603E00A4EDEA /* OKRequestPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRequestPassword.h; sourceTree = "<group>"; };
@@ -486,10 +482,6 @@
 		95269ECC1731613600A4EDEA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		95269ECE1731614100A4EDEA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		95269ED01731615200A4EDEA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		95AC35061768D14900658D26 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		95AC35071768D14900658D26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		95AC35081768D14900658D26 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		95AC35091768D14900658D26 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		95AC350F1768D3FA00658D26 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		95AC35121768F5F800658D26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		95AC35131768F5F800658D26 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -536,7 +528,6 @@
 				157D3402142CFEFF00E40FA5 /* SystemConfiguration.framework in Frameworks */,
 				157D33F3142CFD6E00E40FA5 /* MessageUI.framework in Frameworks */,
 				0237A28013B9149400D51BED /* libxml2.dylib in Frameworks */,
-				95AC350E1768D3AD00658D26 /* libTestFlight.a in Frameworks */,
 				023D8099136B43EF00972F52 /* UIKit.framework in Frameworks */,
 				023D809B136B43EF00972F52 /* Foundation.framework in Frameworks */,
 				023D809D136B43EF00972F52 /* CoreGraphics.framework in Frameworks */,
@@ -821,7 +812,6 @@
 		02FBF8EE136F03DF007D852B /* include */ = {
 			isa = PBXGroup;
 			children = (
-				95AC35051768D14900658D26 /* TestFlightSDK1.2.6 */,
 				02F786C814292809008BDD49 /* TextsNavigationController.h */,
 				02F786C914292809008BDD49 /* TextsNavigationController.m */,
 				02F786C414292803008BDD49 /* ObxKit */,
@@ -896,17 +886,8 @@
 		95269DD91731603E00A4EDEA /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				95269DDA1731603E00A4EDEA /* TestFlight-1.2.4 */,
 			);
 			path = libs;
-			sourceTree = "<group>";
-		};
-		95269DDA1731603E00A4EDEA /* TestFlight-1.2.4 */ = {
-			isa = PBXGroup;
-			children = (
-				95269DDB1731603E00A4EDEA /* TestFlight.h */,
-			);
-			path = "TestFlight-1.2.4";
 			sourceTree = "<group>";
 		};
 		95269DDC1731603E00A4EDEA /* OKAccountManager */ = {
@@ -1256,17 +1237,6 @@
 			path = Textures;
 			sourceTree = "<group>";
 		};
-		95AC35051768D14900658D26 /* TestFlightSDK1.2.6 */ = {
-			isa = PBXGroup;
-			children = (
-				95AC35061768D14900658D26 /* libTestFlight.a */,
-				95AC35071768D14900658D26 /* README.md */,
-				95AC35081768D14900658D26 /* release_notes.md */,
-				95AC35091768D14900658D26 /* TestFlight.h */,
-			);
-			path = TestFlightSDK1.2.6;
-			sourceTree = "<group>";
-		};
 		95AC35111768F5F800658D26 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -1439,8 +1409,6 @@
 				95269EC91731603E00A4EDEA /* OKInfoView-iPhone-Backdrop-Texture-568h@2x.png in Resources */,
 				95269ECA1731603E00A4EDEA /* OKInfoView-iPhone-Backdrop-Texture.png in Resources */,
 				95269ECB1731603E00A4EDEA /* OKInfoView-iPhone-Backdrop-Texture@2x.png in Resources */,
-				95AC350B1768D14900658D26 /* README.md in Resources */,
-				95AC350C1768D14900658D26 /* release_notes.md in Resources */,
 				95AC35211768F5F800658D26 /* Default-568h@2x.png in Resources */,
 				95AC35221768F5F800658D26 /* Default-Landscape.png in Resources */,
 				95AC35231768F5F800658D26 /* Default-Landscape@2x.png in Resources */,
@@ -1711,8 +1679,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/**",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources\"",
-					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK0.7.2\"",
-					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK1.2.6\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources/libCHDataStructure\"",
 					"$(PROJECT_DIR)/CHDataLib",
 					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
@@ -1768,8 +1734,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/**",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources\"",
-					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK0.7.2\"",
-					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK1.2.6\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources/libCHDataStructure\"",
 					"$(PROJECT_DIR)/CHDataLib",
 					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
@@ -1820,10 +1784,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					TESTFLIGHT,
-					DEBUG,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1869,6 +1830,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheGreatMigration-iOS/TheGreatMigration-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = YES;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
@@ -1886,8 +1848,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"TheGreatMigration-iOS/**",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources\"",
-					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK0.7.2\"",
-					"\"$(SRCROOT)/TheGreatMigration-iOS/include/TestFlightSDK1.2.6\"",
 					"\"$(SRCROOT)/TheGreatMigration-iOS/resources/libCHDataStructure\"",
 					"$(PROJECT_DIR)/CHDataLib",
 					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",

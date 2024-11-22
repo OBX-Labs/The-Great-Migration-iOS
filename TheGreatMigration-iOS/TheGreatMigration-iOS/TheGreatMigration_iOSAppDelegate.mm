@@ -49,7 +49,6 @@
 #import "TheGreatMigration_iOSAppDelegate.h"
 #import "EAGLView.h"
 #import "MainSettings.h"
-#import "TestFlight.h"
 
 #import "OKPoEMM.h"
 #import "OKPreloader.h"
@@ -68,8 +67,6 @@
 
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //Launch TestFlight
-    //[TestFlight takeOff:@"7e187526-9900-46aa-b1cc-d41d8440961a"];
     
     if(![[NSUserDefaults standardUserDefaults] objectForKey:@"fLaunch"])
         [self setDefaultValues];
