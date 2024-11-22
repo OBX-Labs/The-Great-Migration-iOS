@@ -1688,7 +1688,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2.0.13;
+				CURRENT_PROJECT_VERSION = 2.0.14;
 				DEVELOPMENT_TEAM = 8WM835VJ56;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1717,7 +1717,7 @@
 					"$(PROJECT_DIR)/CHDataLib",
 					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				OTHER_CFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.migration;
@@ -1743,7 +1743,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.0.13;
+				CURRENT_PROJECT_VERSION = 2.0.14;
 				DEVELOPMENT_TEAM = 8WM835VJ56;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1774,7 +1774,7 @@
 					"$(PROJECT_DIR)/CHDataLib",
 					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.migration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1863,7 +1863,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2.0.13;
+				CURRENT_PROJECT_VERSION = 2.0.14;
 				DEVELOPMENT_TEAM = 8WM835VJ56;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1892,7 +1892,7 @@
 					"$(PROJECT_DIR)/CHDataLib",
 					"$(PROJECT_DIR)/TheGreatMigration-iOS/CHData",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				OTHER_CFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.migration;
